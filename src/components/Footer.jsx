@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer>
-      <p>&copy; 2023 My Portfolio</p>
+    <footer className="text-dark text-center py-4">
+      <p>&copy; 2023 Oliver Kean Palgue | Portfolio</p>
     </footer>
   );
 }
