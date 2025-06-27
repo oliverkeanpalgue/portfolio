@@ -4,11 +4,6 @@ function Navbar() {
       <ul className="flex gap-8">
         <li>
           <a href="#home" className="text-gray-700 hover:text-purple-900 font-medium transition-colors">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="text-gray-700 hover:text-purple-900 font-medium transition-colors">
             About
           </a>
         </li>
