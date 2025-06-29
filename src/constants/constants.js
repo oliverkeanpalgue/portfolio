@@ -3,7 +3,7 @@ const CONSTANTS = {
   WEB: "Web Developer",
   FRONTEND: "Frontend Developer",
   BACKEND: "Backend Developer",
-  FULL_STACK_ROLE: "Full Stack Developer",
+  FULL_STACK: "Full Stack Developer",
 };
 
 export default CONSTANTS;
