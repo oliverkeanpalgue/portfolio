@@ -1,7 +1,7 @@
 import EXPERIENCE from "../../constants/experience";
 export default function Experience() {
   return (
-    <section id="#experiences" className="w-full p-18 shadow-md">
+    <section id="#experiences" className="w-full p-18 shadow-md bg-gray-50">
       <div className="flex justify-between gap-2">
         <ol className="relative border-s border-gray-600">
           {EXPERIENCE.map(
