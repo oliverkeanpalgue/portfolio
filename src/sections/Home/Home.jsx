@@ -2,9 +2,9 @@ import CONSTANTS from "../../constants/constants";
 import Introduction from "../../sections/Home/components/Introduction";
 import Description from "../../sections/Home/components/Description";
 
-function Home() {
+export default function Home() {
   return (
-    <section id="home" className="w-full h-1/2 p-18">
+    <section id="" className="w-full p-18 shadow-md">
       <div className="flex justify-between gap-2">
           <Introduction name={CONSTANTS.NAME} role={CONSTANTS.FULL_STACK}/>
           <Description name={CONSTANTS.NAME}/>
@@ -13,4 +13,3 @@ function Home() {
   );
 }
 
-export default Home;
