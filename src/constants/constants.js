@@ -1,10 +1,9 @@
-//site configuration
-export const NAME = "Oliver Kean Palgue"
+const CONSTANTS = {
+  NAME: "Oliver Kean Palgue",
+  WEB: "Web Developer",
+  FRONTEND: "Frontend Developer",
+  BACKEND: "Backend Developer",
+  FULL_STACK_ROLE: "Full Stack Developer",
+};
 
-//roles
-export const WEB = "Web Developer"
-export const FRONTEND = "Frontend Developer"
-export const BACKEND = "Backend Developer"
-export const FULL_STACK_ROLE = "Full Stack Developer"
-
-
+export default CONSTANTS;
