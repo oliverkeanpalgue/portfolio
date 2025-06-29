@@ -1,32 +1,17 @@
+import SocialLinks from "../../sections/Home/components/SocialLinks"
 function Home() {
   return (
     <section id="home" className="w-full h-1/2 p-18">
       <div className="flex justify-between gap-2">
         <div className="w-1/2">
           <div className="mb-5">
-            <h1 className="text-6xl text-purple-900 font-bold">
+            <h1 className="text-6xl text-purple-900 font-bold mr-3">
               Oliver Kean Palgue
             </h1>
             <p className="text-2xl text-gray-600 mt-1.5 mb-2">
               Full Stack Developer
             </p>
-
-            <ul>
-              <li>
-                <a href=""></a>
-              </li>
-              <li>
-                <a href=""></a>
-              </li>
-
-              <li>
-                <a href=""></a>
-              </li>
-
-              <li>
-                <a href=""></a>
-              </li>
-            </ul>
+            <SocialLinks/>
           </div>
 
           <a

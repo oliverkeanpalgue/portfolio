@@ -1,4 +1,4 @@
-import Home from '../sections/Home';
+import Home from '../sections/Home/Home';
 function Main() {
   return (
     <>
