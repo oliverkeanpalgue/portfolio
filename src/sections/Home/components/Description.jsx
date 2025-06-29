@@ -2,7 +2,7 @@ import ScrollButton from '../../../components/ScrollButton'
 
 export default function Description({name}){
     return (
-        <div className="w-1/2">
+        <div className="w-1/2 text-justify">
           <p className="text-gray-700 mb-5">
             Hi! I’m{" "}
             <span className="text-purple-900 font-bold text-lg">
@@ -16,7 +16,10 @@ export default function Description({name}){
             and love finding simple solutions to real-world problems. I enjoy
             working with others and creating, functional websites.
           </p>
-          <ScrollButton name="View my Projects" link="#project"/>
+          
+          <div className="flex justify-end m-2">
+             <ScrollButton name="View my Projects" link="#project"/>
+          </div>
         </div>
     )
 }
