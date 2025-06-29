@@ -1,5 +1,6 @@
+import ScrollButton from '../../../components/ScrollButton'
 
-function Description({name}){
+export default function Description({name}){
     return (
         <div className="w-1/2">
           <p className="text-gray-700 mb-5">
@@ -15,15 +16,7 @@ function Description({name}){
             and love finding simple solutions to real-world problems. I enjoy
             working with others and creating, functional websites.
           </p>
-
-          <a
-            href="#projects"
-            className="bg-purple-950 hover:bg-purple-900 text-white px-3 py-2 rounded-full font-medium transition-colors"
-          >
-            View My Projects
-          </a>
+          <ScrollButton name="View my Projects" link="#project"/>
         </div>
     )
 }
-
-export default Description;
