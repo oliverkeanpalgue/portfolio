@@ -7,7 +7,7 @@ function Home() {
             <h1 className="text-6xl text-purple-900 font-bold">
               Oliver Kean Palgue
             </h1>
-            <p className="text-2xl text-gray-600 mt-1.5">
+            <p className="text-2xl text-gray-600 mt-1.5 mb-2">
               Full Stack Developer
             </p>
 
