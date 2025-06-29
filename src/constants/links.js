@@ -12,10 +12,6 @@ const LINK = [
         link: '#projects'
     },
     {
-        name: 'Skills',
-        link: '#skills'
-    },
-    {
         name: 'Contact',
         link: '#contact'
     }
