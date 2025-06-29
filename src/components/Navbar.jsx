@@ -7,9 +7,19 @@ function Navbar() {
             About
           </a>
         </li>
+         <li>
+          <a href="#experience" className="text-gray-700 hover:text-purple-900 font-medium transition-colors">
+            Experience
+          </a>
+        </li>
         <li>
           <a href="#projects" className="text-gray-700 hover:text-purple-900 font-medium transition-colors">
             Projects
+          </a>
+        </li>
+         <li>
+          <a href="#skills" className="text-gray-700 hover:text-purple-900 font-medium transition-colors">
+            Skills
           </a>
         </li>
         <li>
